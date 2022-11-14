@@ -45,11 +45,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ErrorEmail = new System.Windows.Forms.ErrorProvider(this.components);
             this.PhoneBox = new System.Windows.Forms.TextBox();
             this.ErrorPhone = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorEmail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPhone)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +59,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MistyRose;
+            this.panel2.BackgroundImage = global::ShopAccessoriesPC.Properties.Resources.colorgrad;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.butCansel);
             this.panel2.Controls.Add(this.butSave);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -214,7 +218,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(64, 32);
+            this.label1.Location = new System.Drawing.Point(146, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(424, 36);
@@ -224,6 +228,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Info;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -231,6 +236,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(574, 102);
             this.panel1.TabIndex = 23;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::ShopAccessoriesPC.Properties.Resources.people;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(127, 77);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // ErrorEmail
             // 
@@ -274,6 +290,7 @@
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorEmail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorPhone)).EndInit();
             this.ResumeLayout(false);
@@ -302,5 +319,6 @@
         private ErrorProvider ErrorEmail;
         private TextBox PhoneBox;
         private ErrorProvider ErrorPhone;
+        private PictureBox pictureBox1;
     }
 }
