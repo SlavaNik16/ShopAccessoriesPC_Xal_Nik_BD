@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.File = new System.Windows.Forms.ToolStripMenuItem();
             this.Exit = new System.Windows.Forms.ToolStripMenuItem();
@@ -121,7 +121,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(718, 22);
+            this.menuStrip1.Size = new System.Drawing.Size(724, 22);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -205,32 +205,36 @@
             this.statusStrip1.Location = new System.Drawing.Point(0, 812);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(718, 18);
+            this.statusStrip1.Size = new System.Drawing.Size(724, 25);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // NumberUserCount
             // 
+            this.NumberUserCount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberUserCount.Name = "NumberUserCount";
-            this.NumberUserCount.Size = new System.Drawing.Size(143, 13);
+            this.NumberUserCount.Size = new System.Drawing.Size(175, 20);
             this.NumberUserCount.Text = "Кол-во пользователей: 0";
             // 
             // NumberTovarCount
             // 
+            this.NumberTovarCount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberTovarCount.Name = "NumberTovarCount";
-            this.NumberTovarCount.Size = new System.Drawing.Size(105, 13);
+            this.NumberTovarCount.Size = new System.Drawing.Size(130, 20);
             this.NumberTovarCount.Text = "Кол-во товаров: 0";
             // 
             // NumberTovarUser
             // 
+            this.NumberTovarUser.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberTovarUser.Name = "NumberTovarUser";
-            this.NumberTovarUser.Size = new System.Drawing.Size(182, 13);
+            this.NumberTovarUser.Size = new System.Drawing.Size(217, 20);
             this.NumberTovarUser.Text = "Общая сумма пользователей: 0";
             // 
             // NumerTovarAmount
             // 
+            this.NumerTovarAmount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumerTovarAmount.Name = "NumerTovarAmount";
-            this.NumerTovarAmount.Size = new System.Drawing.Size(97, 13);
+            this.NumerTovarAmount.Size = new System.Drawing.Size(114, 20);
             this.NumerTovarAmount.Text = "Общая сумма: 0";
             // 
             // UsersGridViev
@@ -255,7 +259,7 @@
             this.UsersGridViev.MultiSelect = false;
             this.UsersGridViev.Name = "UsersGridViev";
             this.UsersGridViev.ReadOnly = true;
-            this.UsersGridViev.Size = new System.Drawing.Size(710, 435);
+            this.UsersGridViev.Size = new System.Drawing.Size(716, 435);
             this.UsersGridViev.TabIndex = 9;
             this.UsersGridViev.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.UsersGridViev_CellFormatting);
             this.UsersGridViev.SelectionChanged += new System.EventHandler(this.UsersGridViev_SelectionChanged);
@@ -273,8 +277,8 @@
             // 
             this.ColumnSurname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnSurname.DataPropertyName = "Surname";
-            dataGridViewCellStyle7.NullValue = null;
-            this.ColumnSurname.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle19.NullValue = null;
+            this.ColumnSurname.DefaultCellStyle = dataGridViewCellStyle19;
             this.ColumnSurname.FillWeight = 110F;
             this.ColumnSurname.HeaderText = "Фамилия";
             this.ColumnSurname.MinimumWidth = 50;
@@ -304,8 +308,8 @@
             // 
             this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnEmail.DataPropertyName = "Email";
-            dataGridViewCellStyle8.Format = "###@###.##";
-            this.ColumnEmail.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle20.Format = "###@###.##";
+            this.ColumnEmail.DefaultCellStyle = dataGridViewCellStyle20;
             this.ColumnEmail.HeaderText = "Почта";
             this.ColumnEmail.Name = "ColumnEmail";
             this.ColumnEmail.ReadOnly = true;
@@ -315,8 +319,8 @@
             // 
             this.ColumnPhone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnPhone.DataPropertyName = "Phone";
-            dataGridViewCellStyle9.Format = "# ### ### ## ##";
-            this.ColumnPhone.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle21.Format = "# ### ### ## ##";
+            this.ColumnPhone.DefaultCellStyle = dataGridViewCellStyle21;
             this.ColumnPhone.HeaderText = "Телефон";
             this.ColumnPhone.Name = "ColumnPhone";
             this.ColumnPhone.ReadOnly = true;
@@ -340,7 +344,7 @@
             this.DeliteTool});
             this.toolStrip1.Location = new System.Drawing.Point(0, 22);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(718, 29);
+            this.toolStrip1.Size = new System.Drawing.Size(724, 29);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -390,9 +394,9 @@
             this.ChangeToolTovar,
             this.toolStripSeparator3,
             this.DeleteToolTovar});
-            this.toolStrip2.Location = new System.Drawing.Point(718, 22);
+            this.toolStrip2.Location = new System.Drawing.Point(724, 22);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(598, 29);
+            this.toolStrip2.Size = new System.Drawing.Size(592, 29);
             this.toolStrip2.TabIndex = 11;
             this.toolStrip2.Text = "toolStrip2";
             // 
@@ -438,12 +442,12 @@
             // 
             this.CommBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CommBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CommBox.Location = new System.Drawing.Point(721, 495);
+            this.CommBox.Location = new System.Drawing.Point(727, 495);
             this.CommBox.Multiline = true;
             this.CommBox.Name = "CommBox";
             this.CommBox.ReadOnly = true;
             this.CommBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.CommBox.Size = new System.Drawing.Size(592, 314);
+            this.CommBox.Size = new System.Drawing.Size(586, 314);
             this.CommBox.TabIndex = 0;
             // 
             // panel5
@@ -458,7 +462,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 495);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(712, 314);
+            this.panel5.Size = new System.Drawing.Size(718, 314);
             this.panel5.TabIndex = 16;
             // 
             // panel6
@@ -650,12 +654,12 @@
             this.ColumnMethod,
             this.ColumnComment});
             this.TovarGridViev.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TovarGridViev.Location = new System.Drawing.Point(722, 54);
+            this.TovarGridViev.Location = new System.Drawing.Point(728, 54);
             this.TovarGridViev.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TovarGridViev.MultiSelect = false;
             this.TovarGridViev.Name = "TovarGridViev";
             this.TovarGridViev.ReadOnly = true;
-            this.TovarGridViev.Size = new System.Drawing.Size(590, 435);
+            this.TovarGridViev.Size = new System.Drawing.Size(584, 435);
             this.TovarGridViev.TabIndex = 10;
             this.TovarGridViev.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.TovarGridViev_CellFormatting);
             this.TovarGridViev.SelectionChanged += new System.EventHandler(this.TovarGridViev_SelectionChanged);
@@ -682,8 +686,8 @@
             // 
             this.ColumnProduct.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnProduct.DataPropertyName = "Product";
-            dataGridViewCellStyle10.NullValue = null;
-            this.ColumnProduct.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle22.NullValue = null;
+            this.ColumnProduct.DefaultCellStyle = dataGridViewCellStyle22;
             this.ColumnProduct.FillWeight = 110F;
             this.ColumnProduct.HeaderText = "Товар";
             this.ColumnProduct.MinimumWidth = 50;
@@ -703,9 +707,9 @@
             // 
             this.ColumnPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnPrice.DataPropertyName = "Price";
-            dataGridViewCellStyle11.Format = "N2";
-            dataGridViewCellStyle11.NullValue = null;
-            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle23.Format = "N2";
+            dataGridViewCellStyle23.NullValue = null;
+            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle23;
             this.ColumnPrice.HeaderText = "Цена";
             this.ColumnPrice.Name = "ColumnPrice";
             this.ColumnPrice.ReadOnly = true;
@@ -715,9 +719,9 @@
             // 
             this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.dataGridViewTextBoxColumn5.DataPropertyName = "OrderTime";
-            dataGridViewCellStyle12.Format = "D";
-            dataGridViewCellStyle12.NullValue = null;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle24.Format = "D";
+            dataGridViewCellStyle24.NullValue = null;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridViewTextBoxColumn5.HeaderText = "Время заказа";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
@@ -742,8 +746,8 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 718F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 724F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel1.Controls.Add(this.statusStrip1, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.CommBox, 1, 3);
@@ -761,14 +765,14 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 441F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 320F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1316, 830);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1316, 837);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1316, 830);
+            this.ClientSize = new System.Drawing.Size(1316, 837);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";
