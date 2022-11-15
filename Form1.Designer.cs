@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.File = new System.Windows.Forms.ToolStripMenuItem();
             this.Exit = new System.Windows.Forms.ToolStripMenuItem();
@@ -202,10 +202,12 @@
             this.NumberTovarCount,
             this.NumberTovarUser,
             this.NumerTovarAmount});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 812);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 809);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(724, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(724, 28);
+            this.statusStrip1.SizingGrip = false;
+            this.statusStrip1.Stretch = false;
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -213,28 +215,28 @@
             // 
             this.NumberUserCount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberUserCount.Name = "NumberUserCount";
-            this.NumberUserCount.Size = new System.Drawing.Size(175, 20);
+            this.NumberUserCount.Size = new System.Drawing.Size(175, 23);
             this.NumberUserCount.Text = "Кол-во пользователей: 0";
             // 
             // NumberTovarCount
             // 
             this.NumberTovarCount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberTovarCount.Name = "NumberTovarCount";
-            this.NumberTovarCount.Size = new System.Drawing.Size(130, 20);
+            this.NumberTovarCount.Size = new System.Drawing.Size(130, 23);
             this.NumberTovarCount.Text = "Кол-во товаров: 0";
             // 
             // NumberTovarUser
             // 
             this.NumberTovarUser.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumberTovarUser.Name = "NumberTovarUser";
-            this.NumberTovarUser.Size = new System.Drawing.Size(217, 20);
+            this.NumberTovarUser.Size = new System.Drawing.Size(217, 23);
             this.NumberTovarUser.Text = "Общая сумма пользователей: 0";
             // 
             // NumerTovarAmount
             // 
             this.NumerTovarAmount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NumerTovarAmount.Name = "NumerTovarAmount";
-            this.NumerTovarAmount.Size = new System.Drawing.Size(114, 20);
+            this.NumerTovarAmount.Size = new System.Drawing.Size(114, 23);
             this.NumerTovarAmount.Text = "Общая сумма: 0";
             // 
             // UsersGridViev
@@ -259,7 +261,7 @@
             this.UsersGridViev.MultiSelect = false;
             this.UsersGridViev.Name = "UsersGridViev";
             this.UsersGridViev.ReadOnly = true;
-            this.UsersGridViev.Size = new System.Drawing.Size(716, 435);
+            this.UsersGridViev.Size = new System.Drawing.Size(716, 439);
             this.UsersGridViev.TabIndex = 9;
             this.UsersGridViev.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.UsersGridViev_CellFormatting);
             this.UsersGridViev.SelectionChanged += new System.EventHandler(this.UsersGridViev_SelectionChanged);
@@ -277,8 +279,8 @@
             // 
             this.ColumnSurname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnSurname.DataPropertyName = "Surname";
-            dataGridViewCellStyle19.NullValue = null;
-            this.ColumnSurname.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle1.NullValue = null;
+            this.ColumnSurname.DefaultCellStyle = dataGridViewCellStyle1;
             this.ColumnSurname.FillWeight = 110F;
             this.ColumnSurname.HeaderText = "Фамилия";
             this.ColumnSurname.MinimumWidth = 50;
@@ -308,8 +310,8 @@
             // 
             this.ColumnEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnEmail.DataPropertyName = "Email";
-            dataGridViewCellStyle20.Format = "###@###.##";
-            this.ColumnEmail.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle2.Format = "###@###.##";
+            this.ColumnEmail.DefaultCellStyle = dataGridViewCellStyle2;
             this.ColumnEmail.HeaderText = "Почта";
             this.ColumnEmail.Name = "ColumnEmail";
             this.ColumnEmail.ReadOnly = true;
@@ -319,8 +321,8 @@
             // 
             this.ColumnPhone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnPhone.DataPropertyName = "Phone";
-            dataGridViewCellStyle21.Format = "# ### ### ## ##";
-            this.ColumnPhone.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle3.Format = "# ### ### ## ##";
+            this.ColumnPhone.DefaultCellStyle = dataGridViewCellStyle3;
             this.ColumnPhone.HeaderText = "Телефон";
             this.ColumnPhone.Name = "ColumnPhone";
             this.ColumnPhone.ReadOnly = true;
@@ -352,9 +354,10 @@
             // 
             this.AddTool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.AddTool.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddTool.Image = global::ShopAccessoriesPC.Properties.Resources.plus;
             this.AddTool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.AddTool.Name = "AddTool";
-            this.AddTool.Size = new System.Drawing.Size(91, 26);
+            this.AddTool.Size = new System.Drawing.Size(107, 26);
             this.AddTool.Text = "Добавить";
             this.AddTool.Click += new System.EventHandler(this.AddTool_Click);
             // 
@@ -363,9 +366,10 @@
             this.ChangeTool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ChangeTool.Enabled = false;
             this.ChangeTool.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ChangeTool.Image = global::ShopAccessoriesPC.Properties.Resources.changes;
             this.ChangeTool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ChangeTool.Name = "ChangeTool";
-            this.ChangeTool.Size = new System.Drawing.Size(92, 26);
+            this.ChangeTool.Size = new System.Drawing.Size(108, 26);
             this.ChangeTool.Text = "Изменить";
             this.ChangeTool.Click += new System.EventHandler(this.ChangeTool_Click);
             // 
@@ -379,9 +383,10 @@
             this.DeliteTool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.DeliteTool.Enabled = false;
             this.DeliteTool.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DeliteTool.Image = global::ShopAccessoriesPC.Properties.Resources.del;
             this.DeliteTool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.DeliteTool.Name = "DeliteTool";
-            this.DeliteTool.Size = new System.Drawing.Size(78, 26);
+            this.DeliteTool.Size = new System.Drawing.Size(94, 26);
             this.DeliteTool.Text = "Удалить";
             this.DeliteTool.Click += new System.EventHandler(this.DeliteTool_Click);
             // 
@@ -394,9 +399,10 @@
             this.ChangeToolTovar,
             this.toolStripSeparator3,
             this.DeleteToolTovar});
-            this.toolStrip2.Location = new System.Drawing.Point(724, 22);
+            this.toolStrip2.Location = new System.Drawing.Point(730, 22);
+            this.toolStrip2.Margin = new System.Windows.Forms.Padding(6, 0, 0, 0);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(592, 29);
+            this.toolStrip2.Size = new System.Drawing.Size(586, 29);
             this.toolStrip2.TabIndex = 11;
             this.toolStrip2.Text = "toolStrip2";
             // 
@@ -405,9 +411,10 @@
             this.AddToolTovar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.AddToolTovar.Enabled = false;
             this.AddToolTovar.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AddToolTovar.Image = global::ShopAccessoriesPC.Properties.Resources.plus;
             this.AddToolTovar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.AddToolTovar.Name = "AddToolTovar";
-            this.AddToolTovar.Size = new System.Drawing.Size(104, 26);
+            this.AddToolTovar.Size = new System.Drawing.Size(120, 26);
             this.AddToolTovar.Text = "Добавить";
             this.AddToolTovar.Click += new System.EventHandler(this.AddToolTovar_Click);
             // 
@@ -416,9 +423,10 @@
             this.ChangeToolTovar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ChangeToolTovar.Enabled = false;
             this.ChangeToolTovar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ChangeToolTovar.Image = global::ShopAccessoriesPC.Properties.Resources.changes;
             this.ChangeToolTovar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ChangeToolTovar.Name = "ChangeToolTovar";
-            this.ChangeToolTovar.Size = new System.Drawing.Size(99, 26);
+            this.ChangeToolTovar.Size = new System.Drawing.Size(115, 26);
             this.ChangeToolTovar.Text = "Изменить";
             this.ChangeToolTovar.Click += new System.EventHandler(this.ChangeToolTovar_Click);
             // 
@@ -432,9 +440,10 @@
             this.DeleteToolTovar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.DeleteToolTovar.Enabled = false;
             this.DeleteToolTovar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.DeleteToolTovar.Image = global::ShopAccessoriesPC.Properties.Resources.del;
             this.DeleteToolTovar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.DeleteToolTovar.Name = "DeleteToolTovar";
-            this.DeleteToolTovar.Size = new System.Drawing.Size(87, 26);
+            this.DeleteToolTovar.Size = new System.Drawing.Size(103, 26);
             this.DeleteToolTovar.Text = "Удалить";
             this.DeleteToolTovar.Click += new System.EventHandler(this.DeleteToolTovar_Click);
             // 
@@ -442,12 +451,12 @@
             // 
             this.CommBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CommBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CommBox.Location = new System.Drawing.Point(727, 495);
+            this.CommBox.Location = new System.Drawing.Point(727, 499);
             this.CommBox.Multiline = true;
             this.CommBox.Name = "CommBox";
             this.CommBox.ReadOnly = true;
             this.CommBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.CommBox.Size = new System.Drawing.Size(586, 314);
+            this.CommBox.Size = new System.Drawing.Size(586, 307);
             this.CommBox.TabIndex = 0;
             // 
             // panel5
@@ -460,9 +469,9 @@
             this.panel5.Controls.Add(this.GroupTovar);
             this.panel5.Controls.Add(this.GroupUser);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 495);
+            this.panel5.Location = new System.Drawing.Point(3, 499);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(718, 314);
+            this.panel5.Size = new System.Drawing.Size(718, 307);
             this.panel5.TabIndex = 16;
             // 
             // panel6
@@ -659,7 +668,7 @@
             this.TovarGridViev.MultiSelect = false;
             this.TovarGridViev.Name = "TovarGridViev";
             this.TovarGridViev.ReadOnly = true;
-            this.TovarGridViev.Size = new System.Drawing.Size(584, 435);
+            this.TovarGridViev.Size = new System.Drawing.Size(584, 439);
             this.TovarGridViev.TabIndex = 10;
             this.TovarGridViev.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.TovarGridViev_CellFormatting);
             this.TovarGridViev.SelectionChanged += new System.EventHandler(this.TovarGridViev_SelectionChanged);
@@ -686,8 +695,8 @@
             // 
             this.ColumnProduct.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.ColumnProduct.DataPropertyName = "Product";
-            dataGridViewCellStyle22.NullValue = null;
-            this.ColumnProduct.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle4.NullValue = null;
+            this.ColumnProduct.DefaultCellStyle = dataGridViewCellStyle4;
             this.ColumnProduct.FillWeight = 110F;
             this.ColumnProduct.HeaderText = "Товар";
             this.ColumnProduct.MinimumWidth = 50;
@@ -707,9 +716,9 @@
             // 
             this.ColumnPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ColumnPrice.DataPropertyName = "Price";
-            dataGridViewCellStyle23.Format = "N2";
-            dataGridViewCellStyle23.NullValue = null;
-            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.ColumnPrice.DefaultCellStyle = dataGridViewCellStyle5;
             this.ColumnPrice.HeaderText = "Цена";
             this.ColumnPrice.Name = "ColumnPrice";
             this.ColumnPrice.ReadOnly = true;
@@ -719,9 +728,9 @@
             // 
             this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.dataGridViewTextBoxColumn5.DataPropertyName = "OrderTime";
-            dataGridViewCellStyle24.Format = "D";
-            dataGridViewCellStyle24.NullValue = null;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle6.Format = "D";
+            dataGridViewCellStyle6.NullValue = null;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewTextBoxColumn5.HeaderText = "Время заказа";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
@@ -745,6 +754,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 724F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
@@ -762,9 +772,12 @@
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 441F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 320F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 445F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 313F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1316, 837);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
@@ -772,8 +785,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1316, 837);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
@@ -796,6 +812,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
