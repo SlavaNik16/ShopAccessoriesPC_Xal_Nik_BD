@@ -133,9 +133,9 @@
             this.label5.Location = new System.Drawing.Point(210, 407);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 33);
+            this.label5.Size = new System.Drawing.Size(90, 33);
             this.label5.TabIndex = 32;
-            this.label5.Text = "Адресс";
+            this.label5.Text = "Адрес";
             // 
             // SurBox
             // 
@@ -269,6 +269,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(574, 612);
             this.Controls.Add(this.PhoneBox);
             this.Controls.Add(this.panel2);
