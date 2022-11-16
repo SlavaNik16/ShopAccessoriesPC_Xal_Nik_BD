@@ -145,7 +145,11 @@ namespace ShopAccessoriesPC
             {
                 var id = (Users)UsersGridViev.Rows[UsersGridViev.SelectedRows[0].Index].DataBoundItem;
                 TovarGridViev.DataSource = ReadTovarDB(options, id);
-                
+
+            }
+            else
+            {
+                TovarGridViev.DataSource = ReadAllTovarDB(options);
             }
             StatusCol();
         }
