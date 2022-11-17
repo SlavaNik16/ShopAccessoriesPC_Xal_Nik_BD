@@ -49,7 +49,8 @@ namespace ShopAccessoriesPC
         #endregion
         private void Info_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Николаев В.А и Халле Александо ИП-20-3\n\rБаза данных на тему: \n\rМагазин запчастей ПК", "Индивидуальный вариант!",
+            MessageBox.Show("Николаев В.А и Халле Александо ИП-20-3\n\rБаза данных на тему: \n\rМагазин запчастей ПК", 
+                "Индивидуальный вариант!",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         #region AddUsers

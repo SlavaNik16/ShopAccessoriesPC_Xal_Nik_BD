@@ -42,6 +42,7 @@ namespace ShopAccessoriesPC
         }
         public TovarForm(Tovar sourse) : this()
         {
+            this.Text = "Изменение товара";
             CommentBox.Text = sourse.Comment;
             TovarBox.SelectedItem = sourse.Product;
             CountNum.Value = sourse.Count;
